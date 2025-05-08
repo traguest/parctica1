@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+<style>
+
+
+*{
+margin: 0%;
+padding: 0%;
+
+}
+
+
+
+body{
+
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+
+}
+
+
+main{
+
+
+flex-grow: 1;
+
+
+}
+
+
+.titulares{
+
+
+background-color: black;
+color: white;
+
+}
+
+img{
+
+width: 25rem;
+
+height: auto;
+
+}
+
+
+
+
+
+.contenedorx{
+
+
+    display: flex;
+
+    flex-flow: row wrap;
+
+}
+
+
+
+.item{
+
+flex:1 1 200px;
+border: thin solid orange;
+
+}
+
+
+@media screen and (min-width:700px) {
+   
+    .flex-contenedor{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 30px;
+}
+
+
+.ordenacion{
+
+   order: -1; 
+
+
+}
+
+
+}
+
+</style>
+
+
+</head>
+
+
+
+
+<body>
+    
+
+
+
+
+<header class="titulares">
+
+<h1>Caracteristicas de los Animales</h1>
+</header>
+
+
+
+<main>
+
+
+<section class="flex-contenedor">
+<h2>tucan</h2>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, explicabo rerum sint sunt veniam quisquam laboriosam consequatur eaque nam quas eum laborum et! Ipsum impedit, nihil corrupti deserunt ipsam autem?</p>
+
+<img src="images/tucan.jpeg" alt="imagen">
+
+
+
+</section>
+
+<section class="flex-contenedor">
+
+<h2>zorro</h2>
+
+    <p  >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, explicabo rerum sint sunt veniam quisquam laboriosam consequatur eaque nam quas eum laborum et! Ipsum impedit, nihil corrupti deserunt ipsam autem?</p>
+
+
+    <img class="ordenacion" src="images/zorro.jpg" alt="imagen">
+
+
+
+</section>
+
+
+    
+<!--
+<section class="contenedorx">
+
+
+
+<p class="item">lista1</p>
+<p class="item">lista2</p>
+<p class="item">lista3</p>
+<p class="item">lista4</p>
+<p class="item">lista5</p>
+<p class="item">lista6</p>
+<p class="item">lista7</p>
+<p class="item">lista8</p>
+<p class="item">lista9</p>
+<p class="item">lista10</p>
+<p class="item">lista11</p>
+<p class="item">lista12</p>
+<p class="item">lista13</p>
+<p class="item">lista14</p>
+<p class="item">lista15</p>
+<p class="item">lista16</p>
+<p class="item">lista17</p>
+<p class="item">lista18</p>
+<p class="item">lista19</p>
+
+
+
+
+</section>
+
+-->
+
+</main>
+
+
+<footer class="titulares">
+
+pie de pagina
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
